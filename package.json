@@ -1,0 +1,22 @@
+{
+  "name": "react-timeout-component",
+  "version": "1.0.0",
+  "description": "Put's a component on timeout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugglr/react-timeout-component.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Carl-W - ugglr - <https://www.carlw.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ugglr/react-timeout-component/issues"
+  },
+  "homepage": "https://github.com/ugglr/react-timeout-component#readme"
+}
