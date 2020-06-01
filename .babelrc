@@ -1,0 +1,4 @@
+{
+  "presets": ["env", "module:metro-react-native-babel-preset"],
+  "plugins": ["transform-object-rest-spread", "transform-react-jsx"]
+}

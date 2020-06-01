@@ -18,5 +18,22 @@
   "bugs": {
     "url": "https://github.com/ugglr/react-timeout-component/issues"
   },
-  "homepage": "https://github.com/ugglr/react-timeout-component#readme"
+  "homepage": "https://github.com/ugglr/react-timeout-component#readme",
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "webpack": "^4.43.0"
+  }
 }

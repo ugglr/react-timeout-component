@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-export function MinuteTimer(props) {
-  const { timeToWait } = props;
+function TimeoutComponent(props) {
+  const { timeToWait, CustomComponent } = props;
   const [counter, setCounter] = useState(timeToWait || 60);
 
   useEffect(() => {
@@ -10,7 +10,12 @@ export function MinuteTimer(props) {
     return () => clearInterval(timer);
   }, [counter]);
 
+  if (CustomComponent && counter > 0)
+    return <CustomComponent counter={counter} />;
+
   if (counter > 0) return <>{counter}</>;
 
   return <>{props.children}</>;
 }
+
+export default TimeoutComponent;
